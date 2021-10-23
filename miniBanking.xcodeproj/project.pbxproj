@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3702096FC13FB9BE7FED9B97 /* Pods_miniBanking_miniBankingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD268C7B70D1CD76ABBEFFC6 /* Pods_miniBanking_miniBankingUITests.framework */; };
 		37FDA68A2724A68400D2C90D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDA6892724A68400D2C90D /* AppDelegate.swift */; };
 		37FDA68C2724A68400D2C90D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDA68B2724A68400D2C90D /* SceneDelegate.swift */; };
 		37FDA68E2724A68400D2C90D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDA68D2724A68400D2C90D /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		37FDA6A12724A68500D2C90D /* miniBankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDA6A02724A68500D2C90D /* miniBankingTests.swift */; };
 		37FDA6AB2724A68500D2C90D /* miniBankingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDA6AA2724A68500D2C90D /* miniBankingUITests.swift */; };
 		37FDA6AD2724A68500D2C90D /* miniBankingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDA6AC2724A68500D2C90D /* miniBankingUITestsLaunchTests.swift */; };
+		BBD684D0467ED3BD8DA5264D /* Pods_miniBankingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D6FAD3B9D9DBC05B48ECB9 /* Pods_miniBankingTests.framework */; };
+		E8F798BB311969A18169A8F9 /* Pods_miniBanking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6703411081E6D6EAB01E2180 /* Pods_miniBanking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04967B1FA5F03DED07D527AE /* Pods-miniBankingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBankingTests.release.xcconfig"; path = "Target Support Files/Pods-miniBankingTests/Pods-miniBankingTests.release.xcconfig"; sourceTree = "<group>"; };
+		26D6FAD3B9D9DBC05B48ECB9 /* Pods_miniBankingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_miniBankingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		336DB33A95312E100D2B446D /* Pods-miniBankingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBankingTests.debug.xcconfig"; path = "Target Support Files/Pods-miniBankingTests/Pods-miniBankingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		37FDA6862724A68400D2C90D /* miniBanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miniBanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FDA6892724A68400D2C90D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37FDA68B2724A68400D2C90D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		37FDA6A62724A68500D2C90D /* miniBankingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniBankingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FDA6AA2724A68500D2C90D /* miniBankingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniBankingUITests.swift; sourceTree = "<group>"; };
 		37FDA6AC2724A68500D2C90D /* miniBankingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniBankingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AF59AF31660F43D39667598 /* Pods-miniBanking-miniBankingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBanking-miniBankingUITests.debug.xcconfig"; path = "Target Support Files/Pods-miniBanking-miniBankingUITests/Pods-miniBanking-miniBankingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6703411081E6D6EAB01E2180 /* Pods_miniBanking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_miniBanking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FD897468FAC5D7231E8542 /* Pods-miniBanking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBanking.release.xcconfig"; path = "Target Support Files/Pods-miniBanking/Pods-miniBanking.release.xcconfig"; sourceTree = "<group>"; };
+		CD268C7B70D1CD76ABBEFFC6 /* Pods_miniBanking_miniBankingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_miniBanking_miniBankingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B6814CC708775C2DC6C4F9 /* Pods-miniBanking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBanking.debug.xcconfig"; path = "Target Support Files/Pods-miniBanking/Pods-miniBanking.debug.xcconfig"; sourceTree = "<group>"; };
+		D36AC0C7E140CC05510BDB68 /* Pods-miniBanking-miniBankingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBanking-miniBankingUITests.release.xcconfig"; path = "Target Support Files/Pods-miniBanking-miniBankingUITests/Pods-miniBanking-miniBankingUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F798BB311969A18169A8F9 /* Pods_miniBanking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBD684D0467ED3BD8DA5264D /* Pods_miniBankingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3702096FC13FB9BE7FED9B97 /* Pods_miniBanking_miniBankingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AA9E61B4382F68820C46322 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0B6814CC708775C2DC6C4F9 /* Pods-miniBanking.debug.xcconfig */,
+				C3FD897468FAC5D7231E8542 /* Pods-miniBanking.release.xcconfig */,
+				4AF59AF31660F43D39667598 /* Pods-miniBanking-miniBankingUITests.debug.xcconfig */,
+				D36AC0C7E140CC05510BDB68 /* Pods-miniBanking-miniBankingUITests.release.xcconfig */,
+				336DB33A95312E100D2B446D /* Pods-miniBankingTests.debug.xcconfig */,
+				04967B1FA5F03DED07D527AE /* Pods-miniBankingTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		37FDA67D2724A68400D2C90D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				37FDA69F2724A68500D2C90D /* miniBankingTests */,
 				37FDA6A92724A68500D2C90D /* miniBankingUITests */,
 				37FDA6872724A68400D2C90D /* Products */,
+				2AA9E61B4382F68820C46322 /* Pods */,
+				A99FE72D9E789A1BA53C0365 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +158,16 @@
 			path = miniBankingUITests;
 			sourceTree = "<group>";
 		};
+		A99FE72D9E789A1BA53C0365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6703411081E6D6EAB01E2180 /* Pods_miniBanking.framework */,
+				CD268C7B70D1CD76ABBEFFC6 /* Pods_miniBanking_miniBankingUITests.framework */,
+				26D6FAD3B9D9DBC05B48ECB9 /* Pods_miniBankingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37FDA6B02724A68500D2C90D /* Build configuration list for PBXNativeTarget "miniBanking" */;
 			buildPhases = (
+				FB1B7DFCFB2F623BDD55618F /* [CP] Check Pods Manifest.lock */,
 				37FDA6822724A68400D2C90D /* Sources */,
 				37FDA6832724A68400D2C90D /* Frameworks */,
 				37FDA6842724A68400D2C90D /* Resources */,
+				CCBFE2AF6866011F001D5DAE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37FDA6B32724A68500D2C90D /* Build configuration list for PBXNativeTarget "miniBankingTests" */;
 			buildPhases = (
+				F39CCC9D8C4185683EB7DB1C /* [CP] Check Pods Manifest.lock */,
 				37FDA6982724A68500D2C90D /* Sources */,
 				37FDA6992724A68500D2C90D /* Frameworks */,
 				37FDA69A2724A68500D2C90D /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37FDA6B62724A68500D2C90D /* Build configuration list for PBXNativeTarget "miniBankingUITests" */;
 			buildPhases = (
+				59CB969C40C6923A30430F5B /* [CP] Check Pods Manifest.lock */,
 				37FDA6A22724A68500D2C90D /* Sources */,
 				37FDA6A32724A68500D2C90D /* Frameworks */,
 				37FDA6A42724A68500D2C90D /* Resources */,
+				17C94C02440029EEC0899E9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17C94C02440029EEC0899E9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-miniBanking-miniBankingUITests/Pods-miniBanking-miniBankingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-miniBanking-miniBankingUITests/Pods-miniBanking-miniBankingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-miniBanking-miniBankingUITests/Pods-miniBanking-miniBankingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59CB969C40C6923A30430F5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-miniBanking-miniBankingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCBFE2AF6866011F001D5DAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-miniBanking/Pods-miniBanking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-miniBanking/Pods-miniBanking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-miniBanking/Pods-miniBanking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F39CCC9D8C4185683EB7DB1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-miniBankingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB1B7DFCFB2F623BDD55618F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-miniBanking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37FDA6822724A68400D2C90D /* Sources */ = {
@@ -434,6 +583,7 @@
 		};
 		37FDA6B12724A68500D2C90D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B6814CC708775C2DC6C4F9 /* Pods-miniBanking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +611,7 @@
 		};
 		37FDA6B22724A68500D2C90D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3FD897468FAC5D7231E8542 /* Pods-miniBanking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		37FDA6B42724A68500D2C90D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 336DB33A95312E100D2B446D /* Pods-miniBankingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +664,7 @@
 		};
 		37FDA6B52724A68500D2C90D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04967B1FA5F03DED07D527AE /* Pods-miniBankingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +689,7 @@
 		};
 		37FDA6B72724A68500D2C90D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF59AF31660F43D39667598 /* Pods-miniBanking-miniBankingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +712,7 @@
 		};
 		37FDA6B82724A68500D2C90D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36AC0C7E140CC05510BDB68 /* Pods-miniBanking-miniBankingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
