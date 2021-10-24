@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3702096FC13FB9BE7FED9B97 /* Pods_miniBanking_miniBankingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD268C7B70D1CD76ABBEFFC6 /* Pods_miniBanking_miniBankingUITests.framework */; };
+		324154EFB986CF67C01E5139 /* Pods_miniBankingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118DE5E4720AC962EEA79968 /* Pods_miniBankingUITests.framework */; };
+		379BC9DC2724C454007969CF /* AppFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BC9DB2724C454007969CF /* AppFactory.swift */; };
 		37FDA68A2724A68400D2C90D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDA6892724A68400D2C90D /* AppDelegate.swift */; };
 		37FDA68C2724A68400D2C90D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDA68B2724A68400D2C90D /* SceneDelegate.swift */; };
-		37FDA68E2724A68400D2C90D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDA68D2724A68400D2C90D /* ViewController.swift */; };
-		37FDA6912724A68400D2C90D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FDA68F2724A68400D2C90D /* Main.storyboard */; };
 		37FDA6932724A68500D2C90D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FDA6922724A68500D2C90D /* Assets.xcassets */; };
 		37FDA6962724A68500D2C90D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FDA6942724A68500D2C90D /* LaunchScreen.storyboard */; };
 		37FDA6A12724A68500D2C90D /* miniBankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDA6A02724A68500D2C90D /* miniBankingTests.swift */; };
 		37FDA6AB2724A68500D2C90D /* miniBankingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDA6AA2724A68500D2C90D /* miniBankingUITests.swift */; };
 		37FDA6AD2724A68500D2C90D /* miniBankingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDA6AC2724A68500D2C90D /* miniBankingUITestsLaunchTests.swift */; };
-		BBD684D0467ED3BD8DA5264D /* Pods_miniBankingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D6FAD3B9D9DBC05B48ECB9 /* Pods_miniBankingTests.framework */; };
+		9F7A6F3EB0A59DB16C4154EE /* Pods_miniBankingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288EF1814C481E9171D89C4A /* Pods_miniBankingTests.framework */; };
 		E8F798BB311969A18169A8F9 /* Pods_miniBanking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6703411081E6D6EAB01E2180 /* Pods_miniBanking.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,13 +39,13 @@
 
 /* Begin PBXFileReference section */
 		04967B1FA5F03DED07D527AE /* Pods-miniBankingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBankingTests.release.xcconfig"; path = "Target Support Files/Pods-miniBankingTests/Pods-miniBankingTests.release.xcconfig"; sourceTree = "<group>"; };
-		26D6FAD3B9D9DBC05B48ECB9 /* Pods_miniBankingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_miniBankingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		118DE5E4720AC962EEA79968 /* Pods_miniBankingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_miniBankingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		288EF1814C481E9171D89C4A /* Pods_miniBankingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_miniBankingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		336DB33A95312E100D2B446D /* Pods-miniBankingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBankingTests.debug.xcconfig"; path = "Target Support Files/Pods-miniBankingTests/Pods-miniBankingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		379BC9DB2724C454007969CF /* AppFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFactory.swift; sourceTree = "<group>"; };
 		37FDA6862724A68400D2C90D /* miniBanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miniBanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FDA6892724A68400D2C90D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37FDA68B2724A68400D2C90D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		37FDA68D2724A68400D2C90D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		37FDA6902724A68400D2C90D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37FDA6922724A68500D2C90D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37FDA6952724A68500D2C90D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37FDA6972724A68500D2C90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,12 +54,15 @@
 		37FDA6A62724A68500D2C90D /* miniBankingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniBankingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FDA6AA2724A68500D2C90D /* miniBankingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniBankingUITests.swift; sourceTree = "<group>"; };
 		37FDA6AC2724A68500D2C90D /* miniBankingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniBankingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B201BEEEE27122D649D8CBF /* Pods-miniBankingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBankingUITests.release.xcconfig"; path = "Target Support Files/Pods-miniBankingUITests/Pods-miniBankingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A511BF201B5AD02ED33440A /* Pods-miniBankingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBankingUITests.debug.xcconfig"; path = "Target Support Files/Pods-miniBankingUITests/Pods-miniBankingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4AF59AF31660F43D39667598 /* Pods-miniBanking-miniBankingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBanking-miniBankingUITests.debug.xcconfig"; path = "Target Support Files/Pods-miniBanking-miniBankingUITests/Pods-miniBanking-miniBankingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6703411081E6D6EAB01E2180 /* Pods_miniBanking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_miniBanking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FD897468FAC5D7231E8542 /* Pods-miniBanking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBanking.release.xcconfig"; path = "Target Support Files/Pods-miniBanking/Pods-miniBanking.release.xcconfig"; sourceTree = "<group>"; };
-		CD268C7B70D1CD76ABBEFFC6 /* Pods_miniBanking_miniBankingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_miniBanking_miniBankingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49CBF7DB48CB6CE64A43304 /* Pods-miniBanking-miniBankingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBanking-miniBankingTests.release.xcconfig"; path = "Target Support Files/Pods-miniBanking-miniBankingTests/Pods-miniBanking-miniBankingTests.release.xcconfig"; sourceTree = "<group>"; };
 		D0B6814CC708775C2DC6C4F9 /* Pods-miniBanking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBanking.debug.xcconfig"; path = "Target Support Files/Pods-miniBanking/Pods-miniBanking.debug.xcconfig"; sourceTree = "<group>"; };
 		D36AC0C7E140CC05510BDB68 /* Pods-miniBanking-miniBankingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBanking-miniBankingUITests.release.xcconfig"; path = "Target Support Files/Pods-miniBanking-miniBankingUITests/Pods-miniBanking-miniBankingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4CBFAD824F0B60CD0AE33C3 /* Pods-miniBanking-miniBankingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miniBanking-miniBankingTests.debug.xcconfig"; path = "Target Support Files/Pods-miniBanking-miniBankingTests/Pods-miniBanking-miniBankingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBD684D0467ED3BD8DA5264D /* Pods_miniBankingTests.framework in Frameworks */,
+				9F7A6F3EB0A59DB16C4154EE /* Pods_miniBankingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3702096FC13FB9BE7FED9B97 /* Pods_miniBanking_miniBankingUITests.framework in Frameworks */,
+				324154EFB986CF67C01E5139 /* Pods_miniBankingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,9 +102,31 @@
 				D36AC0C7E140CC05510BDB68 /* Pods-miniBanking-miniBankingUITests.release.xcconfig */,
 				336DB33A95312E100D2B446D /* Pods-miniBankingTests.debug.xcconfig */,
 				04967B1FA5F03DED07D527AE /* Pods-miniBankingTests.release.xcconfig */,
+				F4CBFAD824F0B60CD0AE33C3 /* Pods-miniBanking-miniBankingTests.debug.xcconfig */,
+				C49CBF7DB48CB6CE64A43304 /* Pods-miniBanking-miniBankingTests.release.xcconfig */,
+				4A511BF201B5AD02ED33440A /* Pods-miniBankingUITests.debug.xcconfig */,
+				3B201BEEEE27122D649D8CBF /* Pods-miniBankingUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		379BC9DD2724C458007969CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37FDA6922724A68500D2C90D /* Assets.xcassets */,
+				37FDA6972724A68500D2C90D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		379BC9DE2724C45B007969CF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				37FDA6892724A68400D2C90D /* AppDelegate.swift */,
+				379BC9DB2724C454007969CF /* AppFactory.swift */,
+				37FDA68B2724A68400D2C90D /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		37FDA67D2724A68400D2C90D = {
@@ -130,13 +154,9 @@
 		37FDA6882724A68400D2C90D /* miniBanking */ = {
 			isa = PBXGroup;
 			children = (
-				37FDA6892724A68400D2C90D /* AppDelegate.swift */,
-				37FDA68B2724A68400D2C90D /* SceneDelegate.swift */,
-				37FDA68D2724A68400D2C90D /* ViewController.swift */,
-				37FDA68F2724A68400D2C90D /* Main.storyboard */,
-				37FDA6922724A68500D2C90D /* Assets.xcassets */,
+				379BC9DE2724C45B007969CF /* App */,
+				379BC9DD2724C458007969CF /* Resources */,
 				37FDA6942724A68500D2C90D /* LaunchScreen.storyboard */,
-				37FDA6972724A68500D2C90D /* Info.plist */,
 			);
 			path = miniBanking;
 			sourceTree = "<group>";
@@ -162,8 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				6703411081E6D6EAB01E2180 /* Pods_miniBanking.framework */,
-				CD268C7B70D1CD76ABBEFFC6 /* Pods_miniBanking_miniBankingUITests.framework */,
-				26D6FAD3B9D9DBC05B48ECB9 /* Pods_miniBankingTests.framework */,
+				288EF1814C481E9171D89C4A /* Pods_miniBankingTests.framework */,
+				118DE5E4720AC962EEA79968 /* Pods_miniBankingUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -217,7 +237,6 @@
 				37FDA6A22724A68500D2C90D /* Sources */,
 				37FDA6A32724A68500D2C90D /* Frameworks */,
 				37FDA6A42724A68500D2C90D /* Resources */,
-				17C94C02440029EEC0899E9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,7 +298,6 @@
 			files = (
 				37FDA6962724A68500D2C90D /* LaunchScreen.storyboard in Resources */,
 				37FDA6932724A68500D2C90D /* Assets.xcassets in Resources */,
-				37FDA6912724A68400D2C90D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,23 +318,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		17C94C02440029EEC0899E9D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-miniBanking-miniBankingUITests/Pods-miniBanking-miniBankingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-miniBanking-miniBankingUITests/Pods-miniBanking-miniBankingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-miniBanking-miniBankingUITests/Pods-miniBanking-miniBankingUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		59CB969C40C6923A30430F5B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,7 +333,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-miniBanking-miniBankingUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-miniBankingUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -407,7 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37FDA68E2724A68400D2C90D /* ViewController.swift in Sources */,
+				379BC9DC2724C454007969CF /* AppFactory.swift in Sources */,
 				37FDA68A2724A68400D2C90D /* AppDelegate.swift in Sources */,
 				37FDA68C2724A68400D2C90D /* SceneDelegate.swift in Sources */,
 			);
@@ -446,14 +447,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		37FDA68F2724A68400D2C90D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37FDA6902724A68400D2C90D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		37FDA6942724A68500D2C90D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -590,10 +583,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = miniBanking/Info.plist;
+				INFOPLIST_FILE = miniBanking/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -618,10 +610,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = miniBanking/Info.plist;
+				INFOPLIST_FILE = miniBanking/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -689,7 +680,7 @@
 		};
 		37FDA6B72724A68500D2C90D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AF59AF31660F43D39667598 /* Pods-miniBanking-miniBankingUITests.debug.xcconfig */;
+			baseConfigurationReference = 4A511BF201B5AD02ED33440A /* Pods-miniBankingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -712,7 +703,7 @@
 		};
 		37FDA6B82724A68500D2C90D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D36AC0C7E140CC05510BDB68 /* Pods-miniBanking-miniBankingUITests.release.xcconfig */;
+			baseConfigurationReference = 3B201BEEEE27122D649D8CBF /* Pods-miniBankingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,94 +1,174 @@
 PODS:
-  - miniBanking_account (0.0.1)
-  - miniBanking_card (0.0.1)
-  - miniBanking_core (0.0.1)
-  - miniBanking_customerService (0.0.1)
-  - miniBanking_home (0.0.1)
-  - miniBanking_login (0.0.1)
-  - miniBanking_mock (0.0.1)
-  - miniBanking_networking (0.0.1)
-  - miniBanking_pix (0.0.1)
+  - miniBanking_account (0.0.1):
+    - miniBanking_account/Development (= 0.0.1)
+    - miniBanking_core (~> 0.0)
+  - miniBanking_account/Development (0.0.1):
+    - miniBanking_account/Development/Resources (= 0.0.1)
+    - miniBanking_account/Development/Sources (= 0.0.1)
+    - miniBanking_core (~> 0.0)
+  - miniBanking_account/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_account/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_card (0.0.1):
+    - miniBanking_card/Development (= 0.0.1)
+    - miniBanking_core (~> 0.0)
+  - miniBanking_card/Development (0.0.1):
+    - miniBanking_card/Development/Resources (= 0.0.1)
+    - miniBanking_card/Development/Sources (= 0.0.1)
+    - miniBanking_core (~> 0.0)
+  - miniBanking_card/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_card/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_core (0.0.1):
+    - miniBanking_core/Development (= 0.0.1)
+  - miniBanking_core/Development (0.0.1):
+    - miniBanking_core/Development/Resources (= 0.0.1)
+    - miniBanking_core/Development/Sources (= 0.0.1)
+  - miniBanking_core/Development/Resources (0.0.1)
+  - miniBanking_core/Development/Sources (0.0.1)
+  - miniBanking_customerService (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_customerService/Development (= 0.0.1)
+  - miniBanking_customerService/Development (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_customerService/Development/Resources (= 0.0.1)
+    - miniBanking_customerService/Development/Sources (= 0.0.1)
+  - miniBanking_customerService/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_customerService/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_home (0.0.1):
+    - miniBanking_account (~> 0.0)
+    - miniBanking_card (~> 0.0)
+    - miniBanking_core (~> 0.0)
+    - miniBanking_customerService (~> 0.0)
+    - miniBanking_home/Development (= 0.0.1)
+    - miniBanking_networking (~> 0.0)
+    - miniBanking_pix (~> 0.0)
+  - miniBanking_home/Development (0.0.1):
+    - miniBanking_account (~> 0.0)
+    - miniBanking_card (~> 0.0)
+    - miniBanking_core (~> 0.0)
+    - miniBanking_customerService (~> 0.0)
+    - miniBanking_home/Development/Resources (= 0.0.1)
+    - miniBanking_home/Development/Sources (= 0.0.1)
+    - miniBanking_networking (~> 0.0)
+    - miniBanking_pix (~> 0.0)
+  - miniBanking_home/Development/Resources (0.0.1):
+    - miniBanking_account (~> 0.0)
+    - miniBanking_card (~> 0.0)
+    - miniBanking_core (~> 0.0)
+    - miniBanking_customerService (~> 0.0)
+    - miniBanking_networking (~> 0.0)
+    - miniBanking_pix (~> 0.0)
+  - miniBanking_home/Development/Sources (0.0.1):
+    - miniBanking_account (~> 0.0)
+    - miniBanking_card (~> 0.0)
+    - miniBanking_core (~> 0.0)
+    - miniBanking_customerService (~> 0.0)
+    - miniBanking_networking (~> 0.0)
+    - miniBanking_pix (~> 0.0)
+  - miniBanking_login (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_home (~> 0.0)
+    - miniBanking_login/Development (= 0.0.1)
+    - miniBanking_networking (~> 0.0)
+  - miniBanking_login/Development (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_home (~> 0.0)
+    - miniBanking_login/Development/Resources (= 0.0.1)
+    - miniBanking_login/Development/Sources (= 0.0.1)
+    - miniBanking_networking (~> 0.0)
+  - miniBanking_login/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_home (~> 0.0)
+    - miniBanking_networking (~> 0.0)
+  - miniBanking_login/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_home (~> 0.0)
+    - miniBanking_networking (~> 0.0)
+  - miniBanking_mock (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_mock/Development (= 0.0.1)
+  - miniBanking_mock/Development (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_mock/Development/Resources (= 0.0.1)
+    - miniBanking_mock/Development/Sources (= 0.0.1)
+  - miniBanking_mock/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_mock/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_networking (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_mock (~> 0.0)
+    - miniBanking_networking/Development (= 0.0.1)
+  - miniBanking_networking/Development (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_mock (~> 0.0)
+    - miniBanking_networking/Development/Resources (= 0.0.1)
+    - miniBanking_networking/Development/Sources (= 0.0.1)
+  - miniBanking_networking/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_mock (~> 0.0)
+  - miniBanking_networking/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_mock (~> 0.0)
+  - miniBanking_pix (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_pix/Development (= 0.0.1)
+  - miniBanking_pix/Development (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_pix/Development/Resources (= 0.0.1)
+    - miniBanking_pix/Development/Sources (= 0.0.1)
+  - miniBanking_pix/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_pix/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
 
 DEPENDENCIES:
-  - miniBanking_account (from `https://github.com/brunovsc/miniBanking_account.git`, branch `0.0.1`)
-  - miniBanking_card (from `https://github.com/brunovsc/miniBanking_card.git`, branch `0.0.1`)
-  - miniBanking_core (from `https://github.com/brunovsc/miniBanking_core.git`, branch `0.0.1`)
-  - miniBanking_customerService (from `https://github.com/brunovsc/miniBanking_customerService.git`, branch `0.0.1`)
-  - miniBanking_home (from `https://github.com/brunovsc/miniBanking_home.git`, branch `0.0.1`)
-  - miniBanking_login (from `https://github.com/brunovsc/miniBanking_login.git`, branch `0.0.1`)
-  - miniBanking_mock (from `https://github.com/brunovsc/miniBanking_mock.git`, branch `0.0.1`)
-  - miniBanking_networking (from `https://github.com/brunovsc/miniBanking_networking.git`, branch `0.0.1`)
-  - miniBanking_pix (from `https://github.com/brunovsc/miniBanking_pix.git`, branch `0.0.1`)
+  - miniBanking_account (from `../miniBanking_account`)
+  - miniBanking_card/Development (from `../miniBanking_card`)
+  - miniBanking_core (from `../miniBanking_core`)
+  - miniBanking_customerService (from `../miniBanking_customerService`)
+  - miniBanking_home (from `../miniBanking_home`)
+  - miniBanking_login (from `../miniBanking_login`)
+  - miniBanking_mock (from `../miniBanking_mock`)
+  - miniBanking_networking (from `../miniBanking_networking`)
+  - miniBanking_pix (from `../miniBanking_pix`)
 
 EXTERNAL SOURCES:
   miniBanking_account:
-    :branch: 0.0.1
-    :git: https://github.com/brunovsc/miniBanking_account.git
+    :path: "../miniBanking_account"
   miniBanking_card:
-    :branch: 0.0.1
-    :git: https://github.com/brunovsc/miniBanking_card.git
+    :path: "../miniBanking_card"
   miniBanking_core:
-    :branch: 0.0.1
-    :git: https://github.com/brunovsc/miniBanking_core.git
+    :path: "../miniBanking_core"
   miniBanking_customerService:
-    :branch: 0.0.1
-    :git: https://github.com/brunovsc/miniBanking_customerService.git
+    :path: "../miniBanking_customerService"
   miniBanking_home:
-    :branch: 0.0.1
-    :git: https://github.com/brunovsc/miniBanking_home.git
+    :path: "../miniBanking_home"
   miniBanking_login:
-    :branch: 0.0.1
-    :git: https://github.com/brunovsc/miniBanking_login.git
+    :path: "../miniBanking_login"
   miniBanking_mock:
-    :branch: 0.0.1
-    :git: https://github.com/brunovsc/miniBanking_mock.git
+    :path: "../miniBanking_mock"
   miniBanking_networking:
-    :branch: 0.0.1
-    :git: https://github.com/brunovsc/miniBanking_networking.git
+    :path: "../miniBanking_networking"
   miniBanking_pix:
-    :branch: 0.0.1
-    :git: https://github.com/brunovsc/miniBanking_pix.git
-
-CHECKOUT OPTIONS:
-  miniBanking_account:
-    :commit: 8afee4068e19e330f337d19713a0285f3e81024b
-    :git: https://github.com/brunovsc/miniBanking_account.git
-  miniBanking_card:
-    :commit: 117b889bc3037dfe7407bca9888198f122d048c1
-    :git: https://github.com/brunovsc/miniBanking_card.git
-  miniBanking_core:
-    :commit: 100cf0b5c946d14cf959f41a03aa404f8f046abb
-    :git: https://github.com/brunovsc/miniBanking_core.git
-  miniBanking_customerService:
-    :commit: 2ff48ebd71c921c153860daafdf49b070a73389c
-    :git: https://github.com/brunovsc/miniBanking_customerService.git
-  miniBanking_home:
-    :commit: e780d12c0a4320f179af05a27f49fe520b6890cd
-    :git: https://github.com/brunovsc/miniBanking_home.git
-  miniBanking_login:
-    :commit: be028a6e08f09b21fe7decd1f2b319bccf4a257e
-    :git: https://github.com/brunovsc/miniBanking_login.git
-  miniBanking_mock:
-    :commit: 6d2a527d464e6846baef601ef1af1969b7dadc29
-    :git: https://github.com/brunovsc/miniBanking_mock.git
-  miniBanking_networking:
-    :commit: be8dc3d5c2a49a3251f8adf3703d98bb1c83179b
-    :git: https://github.com/brunovsc/miniBanking_networking.git
-  miniBanking_pix:
-    :commit: 462727a426194ea747dbd2d0fe6f7b7fc64d3410
-    :git: https://github.com/brunovsc/miniBanking_pix.git
+    :path: "../miniBanking_pix"
 
 SPEC CHECKSUMS:
-  miniBanking_account: 1936cac241fd960b847baef2503c5b4fb5ad66f2
-  miniBanking_card: 076864d837d1ae0b24792228ccdbbb6feef325a6
-  miniBanking_core: df765db772a2f9cebe2c0144fec32e63444a46d0
-  miniBanking_customerService: 91d7e68648584bdfd141686c8c2841eee071a258
-  miniBanking_home: 8ac51f8c842830afa59fe83b8586d167a8d03268
-  miniBanking_login: 463b02f15ff227dc96dd8122069cd47d62ab8925
-  miniBanking_mock: 3997eebdaeddbbb96ced32571a38a20d12ca854f
-  miniBanking_networking: 4bd273d93cc0b56059cc874104b77207c990d99a
-  miniBanking_pix: cda8c60cbe12409d6689410884c6df929d48f937
+  miniBanking_account: 5cb14d51b86aaccb7f1f5961a5eb5da47acb408c
+  miniBanking_card: b22ea27703f199e04e05250b1c594a6cc041ccb6
+  miniBanking_core: a4eb4ec7c4ed6fc68c0e24f111164eb9178b12b7
+  miniBanking_customerService: c682dff35c2a961c74497892299f769d8e93dbdb
+  miniBanking_home: 4ce7654112b5ceda4e3b97a8608d3e6c65401d89
+  miniBanking_login: ba37c15eeb439d651a8793cadf59af716bc19f47
+  miniBanking_mock: e6906ea3991bfa7ccdc13bdbbd393c58797c084b
+  miniBanking_networking: 41d9656af2b19a6ce696f4ee6b8b74b9f4274390
+  miniBanking_pix: 3f91166cf7a9ccd514dac54523f20d18b02957dd
 
-PODFILE CHECKSUM: 14be3ee956a504f86efb60d7b7e568d06e379e4b
+PODFILE CHECKSUM: 27b8561bb07a77856886307c3ab764f80e577132
 
 COCOAPODS: 1.11.2
