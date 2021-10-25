@@ -1,0 +1,174 @@
+PODS:
+  - miniBanking_account (0.0.1):
+    - miniBanking_account/Development (= 0.0.1)
+    - miniBanking_core (~> 0.0)
+  - miniBanking_account/Development (0.0.1):
+    - miniBanking_account/Development/Resources (= 0.0.1)
+    - miniBanking_account/Development/Sources (= 0.0.1)
+    - miniBanking_core (~> 0.0)
+  - miniBanking_account/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_account/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_card (0.0.1):
+    - miniBanking_card/Development (= 0.0.1)
+    - miniBanking_core (~> 0.0)
+  - miniBanking_card/Development (0.0.1):
+    - miniBanking_card/Development/Resources (= 0.0.1)
+    - miniBanking_card/Development/Sources (= 0.0.1)
+    - miniBanking_core (~> 0.0)
+  - miniBanking_card/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_card/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_core (0.0.1):
+    - miniBanking_core/Development (= 0.0.1)
+  - miniBanking_core/Development (0.0.1):
+    - miniBanking_core/Development/Resources (= 0.0.1)
+    - miniBanking_core/Development/Sources (= 0.0.1)
+  - miniBanking_core/Development/Resources (0.0.1)
+  - miniBanking_core/Development/Sources (0.0.1)
+  - miniBanking_customerService (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_customerService/Development (= 0.0.1)
+  - miniBanking_customerService/Development (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_customerService/Development/Resources (= 0.0.1)
+    - miniBanking_customerService/Development/Sources (= 0.0.1)
+  - miniBanking_customerService/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_customerService/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_home (0.0.1):
+    - miniBanking_account (~> 0.0)
+    - miniBanking_card (~> 0.0)
+    - miniBanking_core (~> 0.0)
+    - miniBanking_customerService (~> 0.0)
+    - miniBanking_home/Development (= 0.0.1)
+    - miniBanking_networking (~> 0.0)
+    - miniBanking_pix (~> 0.0)
+  - miniBanking_home/Development (0.0.1):
+    - miniBanking_account (~> 0.0)
+    - miniBanking_card (~> 0.0)
+    - miniBanking_core (~> 0.0)
+    - miniBanking_customerService (~> 0.0)
+    - miniBanking_home/Development/Resources (= 0.0.1)
+    - miniBanking_home/Development/Sources (= 0.0.1)
+    - miniBanking_networking (~> 0.0)
+    - miniBanking_pix (~> 0.0)
+  - miniBanking_home/Development/Resources (0.0.1):
+    - miniBanking_account (~> 0.0)
+    - miniBanking_card (~> 0.0)
+    - miniBanking_core (~> 0.0)
+    - miniBanking_customerService (~> 0.0)
+    - miniBanking_networking (~> 0.0)
+    - miniBanking_pix (~> 0.0)
+  - miniBanking_home/Development/Sources (0.0.1):
+    - miniBanking_account (~> 0.0)
+    - miniBanking_card (~> 0.0)
+    - miniBanking_core (~> 0.0)
+    - miniBanking_customerService (~> 0.0)
+    - miniBanking_networking (~> 0.0)
+    - miniBanking_pix (~> 0.0)
+  - miniBanking_login (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_home (~> 0.0)
+    - miniBanking_login/Development (= 0.0.1)
+    - miniBanking_networking (~> 0.0)
+  - miniBanking_login/Development (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_home (~> 0.0)
+    - miniBanking_login/Development/Resources (= 0.0.1)
+    - miniBanking_login/Development/Sources (= 0.0.1)
+    - miniBanking_networking (~> 0.0)
+  - miniBanking_login/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_home (~> 0.0)
+    - miniBanking_networking (~> 0.0)
+  - miniBanking_login/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_home (~> 0.0)
+    - miniBanking_networking (~> 0.0)
+  - miniBanking_mock (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_mock/Development (= 0.0.1)
+  - miniBanking_mock/Development (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_mock/Development/Resources (= 0.0.1)
+    - miniBanking_mock/Development/Sources (= 0.0.1)
+  - miniBanking_mock/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_mock/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_networking (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_mock (~> 0.0)
+    - miniBanking_networking/Development (= 0.0.1)
+  - miniBanking_networking/Development (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_mock (~> 0.0)
+    - miniBanking_networking/Development/Resources (= 0.0.1)
+    - miniBanking_networking/Development/Sources (= 0.0.1)
+  - miniBanking_networking/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_mock (~> 0.0)
+  - miniBanking_networking/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_mock (~> 0.0)
+  - miniBanking_pix (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_pix/Development (= 0.0.1)
+  - miniBanking_pix/Development (0.0.1):
+    - miniBanking_core (~> 0.0)
+    - miniBanking_pix/Development/Resources (= 0.0.1)
+    - miniBanking_pix/Development/Sources (= 0.0.1)
+  - miniBanking_pix/Development/Resources (0.0.1):
+    - miniBanking_core (~> 0.0)
+  - miniBanking_pix/Development/Sources (0.0.1):
+    - miniBanking_core (~> 0.0)
+
+DEPENDENCIES:
+  - miniBanking_account (from `../miniBanking_account`)
+  - miniBanking_card/Development (from `../miniBanking_card`)
+  - miniBanking_core (from `../miniBanking_core`)
+  - miniBanking_customerService (from `../miniBanking_customerService`)
+  - miniBanking_home (from `../miniBanking_home`)
+  - miniBanking_login (from `../miniBanking_login`)
+  - miniBanking_mock (from `../miniBanking_mock`)
+  - miniBanking_networking (from `../miniBanking_networking`)
+  - miniBanking_pix (from `../miniBanking_pix`)
+
+EXTERNAL SOURCES:
+  miniBanking_account:
+    :path: "../miniBanking_account"
+  miniBanking_card:
+    :path: "../miniBanking_card"
+  miniBanking_core:
+    :path: "../miniBanking_core"
+  miniBanking_customerService:
+    :path: "../miniBanking_customerService"
+  miniBanking_home:
+    :path: "../miniBanking_home"
+  miniBanking_login:
+    :path: "../miniBanking_login"
+  miniBanking_mock:
+    :path: "../miniBanking_mock"
+  miniBanking_networking:
+    :path: "../miniBanking_networking"
+  miniBanking_pix:
+    :path: "../miniBanking_pix"
+
+SPEC CHECKSUMS:
+  miniBanking_account: 5cb14d51b86aaccb7f1f5961a5eb5da47acb408c
+  miniBanking_card: b22ea27703f199e04e05250b1c594a6cc041ccb6
+  miniBanking_core: a4eb4ec7c4ed6fc68c0e24f111164eb9178b12b7
+  miniBanking_customerService: c682dff35c2a961c74497892299f769d8e93dbdb
+  miniBanking_home: 4ce7654112b5ceda4e3b97a8608d3e6c65401d89
+  miniBanking_login: ba37c15eeb439d651a8793cadf59af716bc19f47
+  miniBanking_mock: ef7c58e9661ce3c0022f441ea6b308045673756c
+  miniBanking_networking: 41d9656af2b19a6ce696f4ee6b8b74b9f4274390
+  miniBanking_pix: 3f91166cf7a9ccd514dac54523f20d18b02957dd
+
+PODFILE CHECKSUM: 89754817b3fcd8f1b4ad344e4edc6b9c4fb71b0c
+
+COCOAPODS: 1.11.2
