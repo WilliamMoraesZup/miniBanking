@@ -12,17 +12,17 @@ target 'miniBanking' do
   
   def versionedPods
     # Foundation
-    pod 'miniBanking_core', :git => 'https://github.com/brunovsc/miniBanking_core.git', :branch => '0.0.1'
-    pod 'miniBanking_mock', :git => 'https://github.com/brunovsc/miniBanking_mock.git', :branch => '0.0.1'
-    pod 'miniBanking_networking', :git => 'https://github.com/brunovsc/miniBanking_networking.git', :branch => '0.0.1'
+    pod 'miniBanking_core', :git => 'https://github.com/brunovsc/miniBanking_core.git', :branch => 'develop'
+    pod 'miniBanking_mock', :git => 'https://github.com/brunovsc/miniBanking_mock.git', :branch => 'develop'
+    pod 'miniBanking_networking', :git => 'https://github.com/brunovsc/miniBanking_networking.git', :branch => 'develop'
     
     # Features
-    pod 'miniBanking_account', :git => 'https://github.com/brunovsc/miniBanking_account.git', :branch => '0.0.1'
-    pod 'miniBanking_card', :git => 'https://github.com/brunovsc/miniBanking_card.git', :branch => '0.0.1'
-    pod 'miniBanking_customerService', :git => 'https://github.com/brunovsc/miniBanking_customerService.git', :branch => '0.0.1'
-    pod 'miniBanking_home', :git => 'https://github.com/brunovsc/miniBanking_home.git', :branch => '0.0.1'
-    pod 'miniBanking_login', :git => 'https://github.com/brunovsc/miniBanking_login.git', :branch => '0.0.1'
-    pod 'miniBanking_pix', :git => 'https://github.com/brunovsc/miniBanking_pix.git', :branch => '0.0.1'
+    pod 'miniBanking_account', :git => 'https://github.com/brunovsc/miniBanking_account.git', :branch => 'develop'
+    pod 'miniBanking_card', :git => 'https://github.com/brunovsc/miniBanking_card.git', :branch => 'develop'
+    pod 'miniBanking_customerService', :git => 'https://github.com/brunovsc/miniBanking_customerService.git', :branch => 'develop'
+    pod 'miniBanking_home', :git => 'https://github.com/brunovsc/miniBanking_home.git', :branch => 'develop'
+    pod 'miniBanking_login', :git => 'https://github.com/brunovsc/miniBanking_login.git', :branch => 'develop'
+    pod 'miniBanking_pix', :git => 'https://github.com/brunovsc/miniBanking_pix.git', :branch => 'develop'
   end
   
   def localPods
